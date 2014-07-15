@@ -18,14 +18,14 @@ Add `benderjs-jasmine` to the plugins array in the `bender.js` configuration fil
 ```javascript
 var config = {
     applications: {...}
-        
+
     browsers: [...],
-    
+
     plugins: ['benderjs-jasmine'], // load the plugin
-        
+
     tests: {...}
 };
-    
+
 module.exports = config;
 ```
 
@@ -34,13 +34,13 @@ Set `jasmine` as a `framework` for entire project or a specific tests group:
 ```javascript
 var config = {
     applications: {...}
-        
+
     browsers: [...],
-        
+
     framework: 'jasmine', // use for entire project
-    
+
     plugins: ['benderjs-jasmine'],
-        
+
     tests: {
         Foo: {
             basePath: '',
@@ -53,10 +53,9 @@ var config = {
 module.exports = config;
 ```
 
-TODO
-----
-
-- regression handling
+Features
+--------
+- regressions handling
 - single test execution
 
 License
