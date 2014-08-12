@@ -23,5 +23,8 @@
 	"bugs": {
 		"url": "https://github.com/benderjs/benderjs-jasmine/issues"
 	},
-	"homepage": "https://github.com/benderjs/benderjs-jasmine"
+	"homepage": "https://github.com/benderjs/benderjs-jasmine",
+	"devDependencies": {
+		"jscs": "^1.5.9"
+	}
 }
