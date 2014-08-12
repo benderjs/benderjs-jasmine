@@ -4,7 +4,7 @@
 	"description": "Adapter for Jasmine testing framework for Bender.js",
 	"main": "lib/index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"lint": "jscs . && jshint lib/"
 	},
 	"repository": {
 		"type": "git",
@@ -25,6 +25,7 @@
 	},
 	"homepage": "https://github.com/benderjs/benderjs-jasmine",
 	"devDependencies": {
-		"jscs": "^1.5.9"
+		"jscs": "^1.5.9",
+		"jshint": "^2.5.3"
 	}
 }
