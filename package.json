@@ -1,6 +1,6 @@
 {
 	"name": "benderjs-jasmine",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"description": "Adapter for Jasmine testing framework for Bender.js",
 	"main": "lib/index.js",
 	"scripts": {
