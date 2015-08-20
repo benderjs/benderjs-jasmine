@@ -55,7 +55,6 @@ module.exports = config;
 
 Features
 --------
-- regressions handling
 - single test execution
 
 License
